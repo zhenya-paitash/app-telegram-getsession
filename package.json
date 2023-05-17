@@ -1,0 +1,35 @@
+{
+  "name": "app-telegram-getsession",
+  "version": "1.0.0",
+  "description": "Get Telegram Session",
+  "author": "zhenya-paitash",
+  "license": "ISC",
+  "main": "app.js",
+  "bin": "./app.js",
+  "pkg": {
+    "assets": [
+      ".env"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ]
+  },
+  "scripts": {
+    "start": "node app.js",
+    "build": "npx pkg . --compress GZip --public --output ./telegramgetsession-win-x64.exe"
+  },
+  "keywords": [
+    "nodejs",
+    "gramjs",
+    "telegram",
+    "telegram API",
+    "pkg"
+  ],
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "input": "^1.0.1",
+    "pkg": "^5.8.1",
+    "telegram": "^2.14.7"
+  }
+}
