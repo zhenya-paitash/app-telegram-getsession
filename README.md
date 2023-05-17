@@ -1,4 +1,4 @@
-    888             888                                                  
+        888             888                                                  
     888             888                                                  
     888             888                                                  
     888888  .d88b.  888  .d88b.   .d88b.  888d888  8888b.  88888b.d88b.  
@@ -23,3 +23,5 @@
 
 **Name:** *Get Telegram Session*</br>
 **Stack:** *Node.js, GramJS, PKG*</br>
+#
+**Console application:** [➜  Click do download](https://github.com/zhenya-paitash/app-telegram-getsession/releases/tag/stable)</br>
